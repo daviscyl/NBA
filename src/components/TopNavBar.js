@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import logo from "../assets/images/nba-logoman-word-white.svg";
 
-class TopNavBar extends Component {
+export class TopNavBar extends Component {
   render() {
     return (
       <header className="App-header">
@@ -10,5 +10,3 @@ class TopNavBar extends Component {
     );
   }
 }
-
-export default TopNavBar;
