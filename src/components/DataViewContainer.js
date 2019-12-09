@@ -42,7 +42,7 @@ export class DataViewContainer extends React.Component {
             />
           ) : null}
           <Row className="chart-type-radio">
-            <Col span={12} offset={3}>
+            <Col span={8}>
               <RadioGroup
                 onChange={this.onChartTypeChange}
                 value={this.state.chartType}
@@ -51,8 +51,8 @@ export class DataViewContainer extends React.Component {
                 <Radio value="scatter">Scatter</Radio>
               </RadioGroup>
             </Col>
-            <Col span={6}>
-              Tooltip:{" "}
+            <Col span={4}>
+              Tooltip:{""}
               <Switch
                 checkedChildren="On"
                 unCheckedChildren="Off"
